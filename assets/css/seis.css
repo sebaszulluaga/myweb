@@ -1,0 +1,59 @@
+.boton.seis {
+	background: none;
+	color: rgb(88, 66, 66);
+}
+
+.boton.seis svg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill: none;
+	color: #6b3d60;
+}
+
+.boton.seis rect {
+	width: 100%;
+	height: 100%;
+	stroke: #6b3d60;
+	stroke-width: 7px;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	transition: .6s ease all;
+	color: #6b3d60dc;
+}
+
+.boton.seis:hover rect {
+	stroke-dashoffset: 0;
+	color: #6b3d60a9;
+}
+
+.boton.seis {
+	background: #6b3d602d;
+	color: rgba(177, 177, 177, 0.87);
+}
+
+.boton.seis svg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill: none;
+}
+
+.boton.seis rect {
+	width: 100%;
+	height: 100%;
+	stroke: #331b5aab;
+	stroke-width: 7px;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	transition: .6s ease all;
+}
+
+.boton.seis:hover rect {
+	stroke-dashoffset: 0;
+}
+
